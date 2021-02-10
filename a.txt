@@ -1,0 +1,31 @@
+装git
+
+git config --global user.name ''   设置用户名
+
+git config --global user.email      设置邮箱
+
+mkdir 创建文件夹
+
+touch 创建文件
+
+文件只有两种状态：已追踪和未追踪
+
+git init 将所在文件夹作为仓库
+工作区 ->  暂存区 -> Git仓库
+
+git add 使其变成已跟踪状态 即放入暂存区
+
+git commit -m  提交已追踪文件、提交到本地仓库
+
+git status 查看文件状态
+
+git rm --cached 将对应的文件移出暂存区
+
+git restore 重新存储
+
+
+
+将远程仓库clone（将远程仓库复制到本地git clone） -> 
+
+
+git push 将本地同步到远程仓库
